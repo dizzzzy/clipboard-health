@@ -103,7 +103,7 @@ Acceptance Criteria:
     - Scenario 1: Making a call from a facility with a non-valid facility credential.
       - Return a 401 unauthorized status code.
     - Scenario 2: Making a call from a facility with a valid facility credential and a non-valid agentId.
-      - Return an agent with a status code 404 (Not Found).
+      - Return a status code 404 (Not Found).
     - Scenario 3: Making a call from a facility with a valid facility credential, valid agentId and non-empty customId.
       - Return an agent with a status code 200.
 
@@ -112,7 +112,7 @@ Acceptance Criteria:
     - Scenario 1: Making a call from a facility with a non-valid facility credential.
       - Return a 401 unauthorized status code.
     - Scenario 2: Making a call from a facility with a valid facility credential and a non-valid agentId.
-      - Return an agent with a status code 404 (Not Found).
+      - Return a status code 404 (Not Found).
     - Scenario 3: Making a call from a facility with a valid facility credential, valid agentId and non-empty customId.
       - Return an agent with a status code 200.
 
