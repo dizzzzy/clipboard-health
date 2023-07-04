@@ -19,6 +19,6 @@ else {
 if (event.partitionKey) {
     candidate = event.partitionKey;
 }
-3. I removed the need of the data variable because it was only used once and inserted it directly in the update function:
+3. I removed the need for the data variable because it was only used once and inserted it directly in the update function:
 const data = JSON.stringify(event);
 4. I used the ternary operator to reduce the number of lines and to make the return more readable in my opinion.
